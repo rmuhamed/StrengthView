@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:weightSum="10"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <View
+        android:id="@+id/score_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/left_side_rounded_shape" />
+
+    <View
+        android:id="@+id/score_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/normal_shape" />
+
+    <View
+        android:id="@+id/score_10"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/right_side_rounded_shape" />
+
+</LinearLayout>

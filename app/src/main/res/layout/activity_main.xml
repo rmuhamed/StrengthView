@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="32dp">
+
+        <Button
+            android:id="@+id/score_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/score_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/score_1"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/score_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/score_2"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/score_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/score_3"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/score_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/score_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/score_5"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/score_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/score_6"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/score_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/score_7"
+            android:text="8" />
+
+
+        <Button
+            android:id="@+id/score_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@id/score_8"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/score_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@id/score_9"
+            android:text="10" />
+
+    </RelativeLayout>
+
+    <com.gft.strengthview.StrengthView
+        android:id="@+id/strength_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"/>
+
+
+</LinearLayout>
